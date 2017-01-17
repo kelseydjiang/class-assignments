@@ -1,1 +1,10 @@
 PLEASE WORK THIS TIME
+.
+..
+badly named file.txt
+classwork-tuesday-1-17.txt
+.config
+.git
+readme.txt
+temp.txt
+thurs-1-12-2017
