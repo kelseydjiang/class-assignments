@@ -1,1 +1,447 @@
 1/19/17 Class Assignments
+    1  sudo apt-get update
+    2  sudo reboot
+    3  sudo ./install_things.sh
+    4  cd /etc/apt/
+    5  ls
+    6  cd preferences.d/
+    7  ls
+    8  cd ../
+    9  ls
+   10  sudo sources.list
+   11  sudo gedit sources.list
+   12  ls
+   13  cd preferences.d/
+   14  ls
+   15  touch 01_release
+   16  sudo touch 01_release
+   17  sudo gedit 01_release 
+   18  sudo apt-get update
+   19  sudo apt-get install libgstreamer0.10-0 libgstreamer-plugins-base0.10-0.
+   20  ls
+   21  cd 
+   22  ls
+   23  cd Downloads/
+   24  ls
+   25  sudo gdebi rstudio-1.0.136-amd64.deb 
+   26  cd
+   27  apt-get install rstudio
+   28  sudo apt-get install rstudio
+   29  sudo apt-get -f install
+   30  ls
+   31  cd Downloads/
+   32  ls
+   33  sudo gdebi rstudio-1.0.136-amd64.deb 
+   34  sudo apt-get install rstudio
+   35  sudo rstudio 
+   36  cd
+   37  clear
+   38  =ls
+   39  clear
+   40  ls
+   41  cd Downloads/
+   42  ls
+   43  bash Miniconda3-latest-Linux-x86_64.sh 
+   44  df -h
+   45  cd
+   46  ls
+   47  conda update conda
+   48  exit
+   49  ls
+   50  conda update conda
+   51  ls
+   52  df -h
+   53  conda install numpy
+   54  df -h
+   55  conda install jupyter
+   56  ls
+   57  jupyter 
+   58  df -h
+   59  conda install numpy
+   60  conda install scipy
+   61  df -h
+   62  jupyter notebook
+   63  ls
+   64  clear
+   65  ls
+   66  cd Desktop/
+   67  ls
+   68  exit
+   69  pwd
+   70  git config --global user.name "KELSEY JIANG
+   71  git config --global user.email "kelseydjiang@ucla.edu"
+   72  pwd
+   73  eeb177-student@eeb177-VirtualBox:~$ pwd
+   74  cd
+   75  cd Desktop
+   76  mkdir eeb-177
+   77  cd eeb-177
+   78  cd lab-work
+   79  pwd
+   80  cd eeb-177
+   81  cd Desktop
+   82  cd eeb-177
+   83  mkdir lab-work
+   84  cd lab-work
+   85  pwd
+   86  git init
+   87  touch README.txt
+   88  gedit README.txt
+   89  git add README.txt
+   90  git commit -m "initial commit: adding README file"
+   91  git config --global user.name "Kelsey Jiang"
+   92  git config --global user.email "kelseydjiang@ucla.edu"
+   93  git commit -m "initial commit: adding README file"
+   94  git log
+   95  gedit README.txt
+   96  git add README.txt
+   97  git commit -m "more organized file"
+   98  git log
+   99  git remote add origin https://github.com/kelseydjiang/EEB-177-Github-.git
+  100  git push -u origin master
+  101  git config --global credential.helper cache
+  102  git config --global credential.helper 'cache --timeout=3600'
+  103  mkdir exercise-1
+  104  git add <exercise-1>
+  105  git add exercise-1
+  106  cd exercise-1
+  107  touch README.txt
+  108  gedit README.txt
+  109  cd lab-work
+  110  cd eeb-177
+  111  cd Desktop
+  112  cd ..
+  113  git add exercise-1.txt
+  114  git add exercise-1
+  115  git status
+  116  git commit
+  117  git commit -m
+  118  git commit -m "exercise-1"
+  119  git status
+  120  git commit -m "Description of VCS"
+  121  gedit README.txt
+  122  cd exercise-1
+  123  gedit README.txt
+  124  cd lab-work
+  125  cd ..
+  126  git add exercise-1
+  127  git status
+  128  git commit -m "README"
+  129  git status
+  130  git commit -m "exercise-1"
+  131  git push exercise-1
+  132  cd exercise-1
+  133  gedit README.txt
+  134  git add README.txt
+  135  git commit -m "README"
+  136  git status
+  137  gedit README.txt
+  138  git commit -m "VCS Description"
+  139  cd ..
+  140  git commit -m "VCS Description"
+  141  git commit -m "exercise-1"
+  142  git status
+  143  git push exercise-1
+  144  cd ..
+  145  mkdir class-assignments
+  146  cd class-assignments
+  147  cd ..
+  148  git push class-assignments
+  149  cd class-assignments
+  150  cd ..
+  151  git init 
+  152  cd class-assignments
+  153  git init
+  154  cd ..
+  155  ls
+  156  cd class-assignments
+  157  ls -a
+  158  cd ..
+  159  mkdir CSB
+  160  cd CSB
+  161  git clone https://github.com/StefanoAllesina/CSB.git
+  162  cd ..
+  163  ls
+  164  cd class-assignments
+  165  git remote add origin https://github.com/kelseydjiang/class-assignments.git
+  166  git push -u origin master
+  167  git add readme.txt
+  168  touch readme.txt
+  169  gedit readme.txt
+  170  cd ..
+  171  cd class-assignments
+  172  ls
+  173  cd ..
+  174  ls
+  175  rm class-assignments
+  176  rm -rf class-assignments/
+  177  ls
+  178  mkdir class-assignments
+  179  cd class-assignments
+  180  ls
+  181  git init
+  182  git add
+  183  touch readme.txt
+  184  gedit readme.txt
+  185  git add readme.txt
+  186  git commit -m "readme.txt"
+  187  git remote add origin https://github.com/kelseydjiang/class-assignments.git
+  188  git push -u origin master
+  189  cd ..
+  190  cd class-assignments
+  191  mkdir thurs-1-12-2017
+  192  git status
+  193  ls
+  194  rm thurs-1-12-2017
+  195  ls
+  196  echo $SHELL
+  197  echo $HOME
+  198  cd /
+  199  ls
+  200  pwd
+  201  pwd/
+  202  ls
+  203  cd desktop
+  204  cd eeb-177
+  205  cd Desktop
+  206  cd eeb-177
+  207  cd ..
+  208  pwd
+  209  cd Desktop
+  210  cd eeb-177
+  211  pwd
+  212  ls
+  213  cd class-assignments
+  214  git init
+  215  touch readme.txt
+  216  gedit readme.txt
+  217  touch hw-1-12-2017.txt
+  218  gedit hw-1-12-2017.txt
+  219  git add hw-1-12-2017.txt
+  220  git commit -m "hw-1-12-2017 Question 1"
+  221  git remote add origin https://github.com/kelseydjiang/EEB-177-Github-.git
+  222  git push -u origin master
+  223  cd..
+  224  cd ..
+  225  mkdir homework
+  226  cd homework
+  227  touch hw-1-12-2017.txt
+  228  gedit hw-1-12-2017.txt
+  229  git init
+  230  git add hw-1-12-2017.txt
+  231  git commit -m "homework question 1"
+  232  git remote add origin https://github.com/kelseydjiang/homework.git
+  233  git push -u origin master
+  234  gedit hw-1-12-2017.txt
+  235  git init
+  236  git add hw-1-12-2017.txt
+  237  git commit -m "homework question 2"
+  238  git remote add origin https://github.com/kelseydjiang/homework.git
+  239  git push -u origin master
+  240  gedit hw-1-12-2017.txt
+  241  git init
+  242  git add hw-1-12-2017.txt
+  243  git commit -m "homework question 3"
+  244  git push -u origin master
+  245  gedit hw-1-12-2017.txt
+  246  git init
+  247  git add hw-1-12-2017.txt
+  248  git commit -m "homework question 4"
+  249  git push -u origin master
+  250  gedit hw-1-12-2017.txt
+  251  git init
+  252  git add hw-1-12-2017.txt
+  253  git commit -m "homework question 5"
+  254  git push -u origin master
+  255  cd ..
+  256  touch classwork today 1-17-2017.txt
+  257  gedit classwork today 1-17-2017.txt
+  258  cd class-assignments
+  259  ls
+  260  mv classwork today 1-17-2017.txt classwork tuesday 1-17-2017.txt
+  261  ls
+  262  mv classwork today 1-17-2017.txt
+  263  rm classwork today 1-17-2017.txt
+  264  gedit classwork-Tuesday-1-17.txt
+  265  git init
+  266  git add classwork-tuesday-1-17.txt
+  267  ls
+  268  git add classwork-tuesday- 1-17.txt
+  269  gedit classwork-tuesday-1-17.txt
+  270  git init
+  271  git add classwork-tuesday-1-17.txt
+  272  git commit -m "classwork tuesday 1-17"
+  273  git push -u origin master
+  274  git remote add origin https://github.com/kelseydjiang/class-assignments.git
+  275  git push -u origin master
+  276  gedit classwork-tuesdau-1-17.txt
+  277  ls
+  278  rm classwork-tuesday- 1-17.txt
+  279  cd Desktop
+  280  cd eeb-177
+  281  ls
+  282  cd class-assignments
+  283  ls
+  284  git init classwork-tuesday-1-17.txt
+  285  git add classwork-tuesday-1-17.txt
+  286  git commit -m "classwork tuesday 1-17"
+  287  rm classwork today 1-17-2017.txt
+  288  rm classwork_today_1-17-2017.txt
+  289  cd Desktop
+  290  cd eeb-177
+  291  cd class-assignments
+  292  ls
+  293  git init classwork-tuesday-1-17.txt
+  294  git add classwork-tuesday-1-17.txt
+  295  git commit -m "classwork tuesday 1-17"
+  296  git push -u origin master
+  297  cd installation/
+  298  cd ..
+  299  cd eeb-177
+  300  ls
+  301  cd unix
+  302  cd CSB
+  303  cd unix
+  304  cd installation
+  305  cd Desktop
+  306  cd eeb-177
+  307  cd class-assignments
+  308  gedit badly-named-file.txt
+  309  gedit badly named file.txt
+  310  rm badly
+  311  touch badly named file.txt
+  312  cp command badly named file.txt
+  313  rm badly
+  314  rm named file.txt
+  315  ls
+  316  touch "badly named file.txt"
+  317  ls
+  318  cp badly\ named\ file.txt ~
+  319  ls ~
+  320  ls
+  321  gedit classwork-tuesday-1-17.txt
+  322  git init
+  323  git add classwork-tuesday-1-17.txt
+  324  git commit -m "classwork tuesday 1-17"
+  325  git push -u origin master
+  326  git push -u
+  327  touch .config
+  328  ls -a
+  329  gedit classwork-tuesday-1-17.txt
+  330  git init
+  331  git log
+  332  git add classwork-tuesday-1-17.txt
+  333  git log
+  334  git commit -m "classwork tuesday 1-17"
+  335  ls
+  336  git add classwork-tuesday.1.17
+  337  git add classwork-tuesday-1-17
+  338  git add classwork-tuesday-1-17.txt
+  339  git commit -m"Initial commit:classwork-tuesday-1-17.txt"
+  340  git push -u
+  341  git remote add origin https://github.com/kelseydjiang/class-assignments.git
+  342  git push -u
+  343  git log
+  344  git push -u origin master
+  345  cd Desktop
+  346  cd eeb-177
+  347  cd class-assignments
+  348  ls
+  349  gedit classwork-tuesday-1-17.txt
+  350  git init
+  351  git add "classwork-tuesday-1-17.txt"
+  352  git commit -m "classwork-tuesday-1-17.txt"
+  353  git push -u 
+  354  git pull
+  355  rm classwork-tuesday-1-17.txt
+  356  ls
+  357  mk classwork-tuesday-1-17.txt
+  358  ls
+  359  gedit classwork-tuesday-1-17.txt
+  360  git init
+  361  git add classwork-tuesday-1-17.txt
+  362  git commit -m "classwork tuesday 1-17.txt"
+  363  git push -u
+  364  ls ~
+  365  history
+  366  history > temp.txt
+  367  ls -l
+  368  less > temp.txt
+  369  ls > temp.txt
+  370  less temp.txt
+  371  cd Desktop
+  372  cd eeb-177
+  373  cd class-assignments
+  374  ls -a >> classwork-tuesday-1-17.txt
+  375  less temp.txt
+  376  gedit classwork-tuesday-1-17.txt
+  377  git add classwork-tuesday-1-17.txt
+  378  git commit -m "temp addition"
+  379  git push -u
+  380  cd ..
+  381  sudo apt-get update
+  382  sudo apt-get install gnome-screenshot
+  383  sudo reboot
+  384  cd Desktop
+  385  cd eeb-177
+  386  ls
+  387  rm classwork
+  388  rm today
+  389  ls
+  390  cd lab-work
+  391  ls
+  392  mkdir exercise-2
+  393  cd exercise-2
+  394  touch README.txt
+  395  gedit README.txt
+  396  cd ..
+  397  cd exercise-1
+  398  gedit exercise-1
+  399  cd ..
+  400  git init
+  401  git add exercise-1
+  402  git commit -m "exercise-1"
+  403  git remote add origin https://github.com/kelseydjiang/EEB-177-Github-.git
+  404  git push -u
+  405  git status
+  406  cd exercise-1
+  407  touch one-liner.txt
+  408  gedit one-liner.txt
+  409  ls
+  410  gedit exercise-1
+  411  gedit README.txt
+  412  gedit exercise-1
+  413  git add exercise-1
+  414  git commit -m "fav restaurant addition"
+  415  git push -u
+  416  git log
+  417  cd Desktop
+  418  cd eeb-177
+  419  cd CSB
+  420  cd data
+  421  ls
+  422  cd unix
+  423  ls
+  424  cd data
+  425  ls
+  426  wc Marra2014_data.fasta
+  427  wc -l temp.csv
+  428  /
+  429  wc -l Marra2014_data.fasta
+  430  less Marra2014_data.fasta
+  431  touch toremove.txt ../sandbox/
+  432  ls
+  433  touch removeme.txt ~/Desktop/eeb-177/CSB/CSB/unix/sandbox
+  434  ls
+  435  ls ~/
+  436  touch ~/Desktop/eeb-177/CSB/CSB/unix/sandbox/removeme.txt
+  437  cd ..
+  438  cd sanbox
+  439  ls
+  440  cd sandbox
+  441  ls
+  442  cd ..
+  443  cd data
+  444  ls
+  445  history
+  446  history >> ~/Desktop/eeb-177/class-assignments/classwork-thursday-1-19.txt
