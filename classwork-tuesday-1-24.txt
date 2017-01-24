@@ -1,0 +1,80 @@
+Classwork for 1/24/17
+../../../../../Desktop/eeb-177/class-assignments/classwork-tuesday-1-17.txt
+../../../../../Desktop/eeb-177/class-assignments/classwork-thursday-1-19.txt
+../../../../../Desktop/eeb-177/class-assignments/classwork-tuesday-1-24.txt
+
+  597  history | tail -50 >> week-2-hw-eeb177.txt 
+  598  gedit week-2-hw-eeb177.txt 
+  599  git add week-2-hw-eeb177.txt 
+  600  git commit -m "question 5"
+  601  git push -u
+  602  cd ..
+  603  cd CSB
+  604  cd unix
+  605  cd sandbox
+  606  ls
+  607  cd ..
+  608  cd data
+  609  ls
+  610  ls -lah
+  611  cd Desktop
+  612  cd eeb-177
+  613  cd class-assignments
+  614  ls
+  615  gedit classwork-tuesday-1-24.txt
+  616  git init
+  617  git add classwork-tuesday-1-24.txt
+  618  git commit -m "classwork tuesday"
+  619  git push -u
+  620  git add classwork-tuesday-1-24.txt
+  621  git commit -m "classwork tuesday"
+  622  cd ..
+  623  cd CSB
+  624  cd unix
+  625  cd sandbox
+  626  wget http://tinyurl.com/cep-taxa -O cep-taxa.txt
+  627  ls
+  628  grep Orchidacea cep-taxa.txt
+  629  grep -c Orchidacea cep-taxa.txt
+  630  grep Ara cep-taxa.txt 
+  631  grep -i ara cep-taxa.txt 
+  632  grep -i -w ara cep-taxa.txt 
+  633  grep Cebus cep-taxa.txt 
+  634  grep Cebus cep-taxa.txt | grep -B 3
+  635  grep -B 3 -i -w cebus
+  636  grep -B 3 -i -w cebus cep-taxa.txt 
+  637  grep -n Cebus cep-taxa.txt 
+  638  grep -n iguana cep-taxa.txt 
+  639  grep -n -i iguana cep-taxa.txt 
+  640  grep -n -i -w iguana cep-taxa.txt 
+  641  grep -v -c ara cep-taxa.txt 
+  642* grep -v -c -i -w ara cep-taxa.txt 
+  643* grep -v -n -i -w ara cep-taxa.txt >> non-macaws.txt
+  644  find .
+  645  find ../data/
+  646  find ../sandbox/
+  647  find -name ../data/ -name "n30.txt"
+  648  find /home/eeb177-student/Desktop/ -name "class-tues-1-17.txt"
+  649  find ../data -iname "*about*"
+  650  find -name ../../../../../
+  651  find ../../../../../
+  652  find ../../../../../Desktop/eeb-177/class-assignments/ -iname "*classwork*"
+  653  find ../../../../../Desktop/ -iname "*classwork*" >> ~/Desktop/eeb-177/class-assignments/classwork-tuesday-1-24.txt
+  654  gedit ../../class-assignments
+  655  cd ..
+  656  cd CSB
+  657  ls
+  658  cd ..
+  659  ls
+  660  cd class-assingments
+  661  ls
+  662  cd class-assignments
+  663  ls
+  664  gedit classwork-tuesday-1-24.txt
+  665  git add classwork-tuesday-1-24.txt
+  666  git commit -m "classwork 1/24"
+  667  git push -u origin master
+  668  git pull 
+  669  git diff _1?_..HEAD
+  670  history 75
+  671  history 75 >> classwork-tuesday-1-24.txt
