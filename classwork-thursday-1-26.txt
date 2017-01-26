@@ -1,1 +1,102 @@
 Classwork 1/26/17
+
+ 1036  pwd
+ 1037  mkdir scripts
+ 1038  ls
+ 1039  cd scripts
+ 1040  ls
+ 1041  mv ~/Desktop/eeb-177/class-assignments/dir.sh .
+ 1042  ls
+ 1043  cd
+ 1044  ls -a
+ 1045  cd Desktop
+ 1046  ls
+ 1047  cd eeb-177
+ 1048  ls
+ 1049  cd
+ 1050  ls
+ 1051  cd scripts
+ 1052  gedit .bash_profile
+ 1053  cd
+ 1054  cd Desktop
+ 1055  cd eeb-177
+ 1056  cd class-assignments
+ 1057  ls
+ 1058  touch permissions.txt
+ 1059  ls
+ 1060  cd
+ 1061  cd scripts
+ 1062  gedit .bash_profile 
+ 1063  cd
+ 1064  $PATH
+ 1065  ls -a
+ 1066  less .bash_
+ 1067  cd scripts
+ 1068  ls
+ 1069  ls -l
+ 1070  chmod u+x dir.sh
+ 1071  ls -l
+ 1072  di
+ 1073  sudo apt install di
+ 1074  cd
+ 1075  cd Desktop
+ 1076  ./dir.sh
+ 1077  export PATH="$PATH:$HOME/scripts"
+ 1078  gedit .profile
+ 1079  ls -a
+ 1080  cd
+ 1081  gedit .profile
+ 1082  sudo reboot
+ 1083  cd Desktop
+ 1084  ls
+ 1085  cd
+ 1086  ls
+ 1087  cd scripts
+ 1088  ls
+ 1089  cd $PATH
+ 1090  ls -la
+ 1091  cd 
+ 1092  cd Desktop
+ 1093  dir.sh
+ 1094  gedit dir.sh
+ 1095  ls
+ 1096  dir.sh
+ 1097  cd
+ 1098  cd scripts
+ 1099  gedit dir.sh
+ 1100  cd 
+ 1101  cd Desktop
+ 1102  dir.sh
+ 1103  cd 
+ 1104  cd scripts
+ 1105  ls -l
+ 1106  ls
+ 1107  gedit in_class_script.sh
+ 1108  ls -l
+ 1109  chmod u+x in_class_script.sh 
+ 1110  cd ~/Desktop/eeb-177/lab-work/
+ 1111  git status
+ 1112  date
+ 1113  cd
+ 1114  cd scripts
+ 1115  ls
+ 1116  git init
+ 1117  git add "dir.sh"
+ 1118  git commit -m "scripts"
+ 1119  git remote add origin https://github.com/kelseydjiang/Scripts.git
+ 1120  git push -u origin master
+ 1121  ls
+ 1122  git add in_class_script.sh
+ 1123  git commit -m "trial script"
+ 1124  git push 
+ 1125  cd
+ 1126  cd Desktop
+ 1127  cd eeb-177
+ 1128  cd class-assignments
+ 1129  ls
+ 1130  ipython
+ 1131  ls
+ 1132  hitsory | tail 100 >> classwork-thursday-1-26.txt
+ 1133  history 
+ 1134  history 100
+ 1135  history 100 >> classwork-thursday-1-26.txt
