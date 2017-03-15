@@ -1,0 +1,42 @@
+---
+title: "PaleoBio Graphs"
+output: html_document
+---
+
+```{r}
+library(paleobioDB)
+library(paleotree)
+
+#get data
+data(graptPBDB)
+head(graptOccPBDB)
+#get species sorted occurrences
+occSpecies<-taxonSortPBDBocc(graptOccPBDB, rank="species")
+head(occSpecies)
+#plot species occurrences 
+plotOccData(occSpecies, groupLabel = "Species")
+#convert occurrence data to "timelist" format
+graptTimeSpecies<-occData2timeList(occList=occSpecies)
+#plot diversity through time
+taxicDivDisc(graptTimeSpecies)
+head(graptTimeSpecies)
+
+
+occGenera <- taxonSortPBDBocc(graptOccPBDB, rank="genus")
+occFamily <- taxonSortPBDBocc(graptOccPBDB, rank="family")
+
+pdf(file="dtt.pdf")
+taxicDivDisc(graptTimeSpecies)
+taxicDivDisc(graptTimeGenus)
+taxicDivDisc(graptTimeFamily)
+dev.off()
+```
+
+```{r}
+summary(cars)
+```
+
+
+```{r}
+plot(pressure)
+```
